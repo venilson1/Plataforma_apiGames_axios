@@ -1,15 +1,14 @@
 # 🕹🎮 Consumindo Api de Games 
-## 🚀 Em construção...
 
 <br>
 
-## Neste Projeto, desenvolvi uma api de games para aqueles que são fãs de jogos do nitendo 64, aqui ele pode colocar o titulo do jogo, o ano de lançamento e o valor atual do produto no mercado.
+## 🚀 Neste Projeto, foi desenvolvido uma api de games com 3 campos(titulo, ano e o preço), onde onde esses dados são salvos no banco de dados mysql, no front-end utilizei o axios para oder consumir e fazer alterações nos dados foernecido pela api criada.
 
 ### Features
 
 - [x] Cadastro de Games
 - [x] Deletar Game
-- [ ] Atualizar Game
+- [x] Atualizar Game
 
 <br>
 <br>
