@@ -2,7 +2,7 @@
 
 <br>
 
-## 🚀 Neste Projeto, foi desenvolvido uma api de games com 3 campos(titulo, ano e o preço), onde onde esses dados são salvos no banco de dados mysql, no front-end utilizei o axios para oder consumir e fazer alterações nos dados foernecido pela api criada.
+## 🚀 Neste Projeto, foi desenvolvido uma API de games com 3 campos(título, ano e o preço), onde esses dados são salvos no banco de dados Mysql. No frontend utilizei o Axios para realizar requisições e fazer alterações nos dados foernecido pela api criada.
 
 ### Features
 
