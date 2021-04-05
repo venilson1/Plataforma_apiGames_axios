@@ -32,7 +32,7 @@ password: root;
 $ git clone <https://github.com/venilson1/Consumindo-Api>
 
 # Acesse a pasta do projeto no terminal
-$ cd plataformadegames
+$ cd plataformadegames/apigames
 
 # Instale as dependências
 $ npm install

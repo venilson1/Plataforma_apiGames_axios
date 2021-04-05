@@ -7,8 +7,11 @@ const router = require("./routes/routes");
 
 app.use(cors());
 
+app.use("./src/uploads/", express.static("/src/uploads"));
+
+app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-app.use(express.urlencoded({ extended: true }))
+
 
 // connection databse
 connection.authenticate().then(() => {

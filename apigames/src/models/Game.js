@@ -13,11 +13,14 @@ const Game = connection.define('Games', {
   price: {
     type: Sequelize.INTEGER,
     allowNull: false
+  },
+  file: {
+    type: Sequelize.STRING,
   }
 });
 
-// Game.sync({ force: true }).then(() => {
-//   console.log('\033[0;34m created table Game');
-// });
+Game.sync({ force: true }).then(() => {
+  console.log('created table Game');
+});
 
 module.exports = Game;

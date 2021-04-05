@@ -1,8 +1,9 @@
 const Game = require('../models/Game');
 
+
 module.exports = {
   async index(req, res){
-    const games = await Game.findAll()
+    const games = await Game.findAll();
     return res.json(games);
   },
 
@@ -14,13 +15,15 @@ module.exports = {
 
   async create(req, res){
     const { title, year, price } = req.body;
-    const games = await Game.create({
+    const file = req.file.path;
+      const games = await Game.create({
       title,
       year,
-      price
+      price,
+      file
     });
 
-    return res.json(games).sendStatus(200);
+    return res.json(games).sendStatus(201);
   },
 
   async update(req, res){
