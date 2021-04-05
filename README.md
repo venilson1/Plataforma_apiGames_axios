@@ -61,7 +61,6 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [Node.js](https://nodejs.org/en/)
 - [nodemon](https://www.npmjs.com/package/nodemon/)
 - [sequelize](https://sequelize.org/)
-- [axios](https://www.npmjs.com/package/axios/)
 - [cors](https://www.npmjs.com/package/cors/)
 - [uuid](https://www.npmjs.com/package/uuid)
 - [multer](https://www.npmjs.com/package/multer)
