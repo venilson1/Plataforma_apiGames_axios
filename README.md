@@ -16,9 +16,21 @@
 ## ✅ Pré-requisitos e como rodar a aplicação
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
-[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/), [Mysql](https://www.mysql.com/), ou instalar o Docker[Docker](https://hub.docker.com/_/mariadb) e após baixar a imagem MariaDB, inciando com o comando ``docker pull mariadb``, caso esteja em dúvida utilizar o docker e criar container na sua maquina, dê uma olhada na documentação. [MariaDB](https://mariadb.com/kb/en/installing-and-using-mariadb-via-docker/)
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/), [Mysql](https://www.mysql.com/), ou instalar o [Docker](https://hub.docker.com/_/mariadb) e após baixar a imagem MariaDB, inciando com o comando ``docker pull mariadb``, caso esteja em dúvida utilizar o docker e criar container na sua maquina, dê uma olhada na documentação. [MariaDB](https://mariadb.com/kb/en/installing-and-using-mariadb-via-docker/)
 Além disto é bom ter um editor para alterar o código [VSCode](https://code.visualstudio.com/).
 
+<br>
+<br>
+
+### 🎲 Configurando o Banco de Dados (servidor)
+
+- Use qualquer database Client de sua preferência
+
+```
+database: apigames;
+username: root;
+password: root;
+```
 <br>
 <br>
 
@@ -28,18 +40,19 @@ Além disto é bom ter um editor para alterar o código [VSCode](https://code.vi
 # Clone este repositório
 $ git clone <https://github.com/venilson1/Consumindo-Api>
 
-# Acesse a pasta do projeto no terminal/cmd
+# Acesse a pasta do projeto no terminal
 $ cd plataformadegames
-
 
 # Instale as dependências
 $ npm install
-
-# Execute a aplicação em modo de desenvolvimento
-$ npm start
-
-# O servidor inciará na porta:3333 - acesse <http://localhost:3333>
 ```
+
+> #### Depois de iniciar o projeto a primeira...
+> - Entre na pasta **Model**.
+> - e apague o código de criação do banco de dados da linha 19 
+>  `` Game.sync({ force: true }).then(() => {console.log('created table Game');``
+>  **Assim evitará que toda alteração crie uma nova tabela no banco de dados.**
+
 <br>
 <br>
 
