@@ -50,7 +50,10 @@ $ npm install
 > #### Depois de iniciar o projeto a primeira...
 > - Entre na pasta **Model**.
 > - e apague o código de criação do banco de dados da linha 19 
->  `` Game.sync({ force: true }).then(() => {console.log('created table Game');``
+>  `` 
+>  Game.sync({ force: true })
+>  .then(() => {console.log('created table Game');
+>  ``
 >  **Assim evitará que toda alteração crie uma nova tabela no banco de dados.**
 
 <br>
