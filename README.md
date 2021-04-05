@@ -16,7 +16,7 @@
 ## ✅ Pré-requisitos e como rodar a aplicação
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
-[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/), [Mysql](https://www.mysql.com/), ou instalar o Docker[Docker](https://hub.docker.com/_/mariadb) e após baixar a imagem MariaDB, inciando com o comando docker pull mariadb, caso esteja em dúvida utilizar o docker e criar container na sua maquina, dê uma olhada na documentação. [MariaDB](https://mariadb.com/kb/en/installing-and-using-mariadb-via-docker/)
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/), [Mysql](https://www.mysql.com/), ou instalar o Docker[Docker](https://hub.docker.com/_/mariadb) e após baixar a imagem MariaDB, inciando com o comando ``docker pull mariadb``, caso esteja em dúvida utilizar o docker e criar container na sua maquina, dê uma olhada na documentação. [MariaDB](https://mariadb.com/kb/en/installing-and-using-mariadb-via-docker/)
 Além disto é bom ter um editor para alterar o código [VSCode](https://code.visualstudio.com/).
 
 <br>
