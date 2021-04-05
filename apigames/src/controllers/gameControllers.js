@@ -16,25 +16,27 @@ module.exports = {
   async create(req, res){
     const { title, year, price } = req.body;
     const file = req.file.path;
-      const games = await Game.create({
+    console.log(req.file);
+
+      await Game.create({
       title,
       year,
       price,
       file
     });
 
-    return res.json(games).sendStatus(201);
+    return res.sendStatus(201);
   },
 
   async update(req, res){
     const id = parseInt(req.params.id);
     const { title, year, price } = req.body;
-    const games = await Game.update(
+    await Game.update(
       { title, year,price,},
       {where: {id: id}}
     )
 
-    return res.json(games).sendStatus(200);
+    return res.sendStatus(200);
   },
 
   async delete(req, res){

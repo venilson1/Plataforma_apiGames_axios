@@ -19,8 +19,8 @@ const Game = connection.define('Games', {
   }
 });
 
-Game.sync({ force: true }).then(() => {
-  console.log('created table Game');
-});
+// Game.sync({ force: true }).then(() => {
+//   console.log('created table Game');
+// });
 
 module.exports = Game;
