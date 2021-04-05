@@ -1,6 +1,6 @@
-# Consumindo Api de Games 
+# Api de Games 
 
-## Neste Projeto, foi desenvolvido uma API de games com 3 campos(título, ano e o preço), onde esses dados são salvos no banco de dados Mysql. No frontend utilizei o Axios para realizar requisições e fazer alterações nos dados foernecido pela api criada.
+##  API desenvolvida para servir catalago de jogos com nome, preço e imagem.
 
 ### Features
 
@@ -48,6 +48,9 @@ Game.sync({ force: true })
 - **Assim evitará que toda alteração crie uma nova tabela no banco de dados.**
 
 
+**FRONT END EM MANUTENÇÃO 🚧⏳**
+
+
 ### 🛠 Tecnologias
 
 As seguintes ferramentas foram usadas na construção do projeto:
@@ -58,3 +61,5 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [sequelize](https://sequelize.org/)
 - [axios](https://www.npmjs.com/package/axios/)
 - [cors](https://www.npmjs.com/package/cors/)
+- [uuid](https://www.npmjs.com/package/uuid)
+- [multer](https://www.npmjs.com/package/multer)
