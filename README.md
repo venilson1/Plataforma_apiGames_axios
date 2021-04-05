@@ -21,9 +21,11 @@ Além disto é bom ter um editor para alterar o código [VSCode](https://code.vi
 
 ```
 database: apigames;
-username: root;
-password: root;
+username: < configuração do usuario do banco >;
+password: < configuração da senha do banco >;
 ```
+
+- Na pasta data, altere as connection string de acordo está configurado o banco de dados na sua maquina.
 
 ### Rodando o Back End (servidor)
 
