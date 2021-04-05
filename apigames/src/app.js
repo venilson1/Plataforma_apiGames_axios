@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const cors = require("cors");
 const connection = require('./data/bd');
-const routes = require("./routes/routes");
+const router = require("./routes/routes");
 
 
 app.use(cors());
@@ -17,9 +17,9 @@ connection.authenticate().then(() => {
   console.log(err);
 });
 
-app.use(routes);
+app.use(router);
 
-app.listen(3333, () => console.log('\n 🚀 \033[0;32m Server PORT 3333 '));
+app.listen(3333, () => console.log('\n 🚀  Server PORT 3333 '));
 
 
 

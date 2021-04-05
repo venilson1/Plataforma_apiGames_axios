@@ -1,16 +1,11 @@
 const express = require("express");
-const { default: gameControllers } = require("../controllers/gameControllers");
+const gameControllers  = require("../controllers/gameControllers");
 const router = express.Router();
 
-let routes = (app) => {
+  router.get('/games', gameControllers.index);
+  router.get('/games/:id', gameControllers.findById);
+  router.post('/games', gameControllers.create);
+  router.put('/games/:id', gameControllers.update);
+  router.delete('/games/:id', gameControllers.delete);
 
-  app.get('/games', gameControllers.index);
-  app.get('/games/:id', gameControllers.findById);
-  app.post('/games', gameControllers.create);
-  app.put('/games/:id', gameControllers.update)
-  app.delete('/games/:id', gameControllers.delete)
-
-  app.use(router);
-};
-
-module.exports = routes;
+module.exports = router;

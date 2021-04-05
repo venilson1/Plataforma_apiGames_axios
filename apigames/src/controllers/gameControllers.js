@@ -1,5 +1,4 @@
-const { create, update } = require('../models/Game');
-const Game = require('../models/Game')
+const Game = require('../models/Game');
 
 module.exports = {
   async index(req, res){
