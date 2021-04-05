@@ -1,6 +1,6 @@
-# 🕹🎮 Consumindo Api de Games 
+# Consumindo Api de Games 
 
-## 🚀 Neste Projeto, foi desenvolvido uma API de games com 3 campos(título, ano e o preço), onde esses dados são salvos no banco de dados Mysql. No frontend utilizei o Axios para realizar requisições e fazer alterações nos dados foernecido pela api criada.
+## Neste Projeto, foi desenvolvido uma API de games com 3 campos(título, ano e o preço), onde esses dados são salvos no banco de dados Mysql. No frontend utilizei o Axios para realizar requisições e fazer alterações nos dados foernecido pela api criada.
 
 ### Features
 
@@ -15,7 +15,7 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 Além disto é bom ter um editor para alterar o código [VSCode](https://code.visualstudio.com/).
 
 
-### 🎲 Configurando o Banco de Dados (servidor)
+### Configurando o Banco de Dados (servidor)
 
 - Use qualquer database Client de sua preferência
 
@@ -25,7 +25,7 @@ username: root;
 password: root;
 ```
 
-### 🎲 Rodando o Back End (servidor)
+### Rodando o Back End (servidor)
 
 ```bash
 # Clone este repositório
