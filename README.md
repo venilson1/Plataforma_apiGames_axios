@@ -40,7 +40,7 @@ $ cd plataformadegames/apigames
 $ npm install
 ```
 
-## Depois de iniciar o projeto a primeira...
+## Depois de iniciar o projeto...
 - Entre na pasta **Model**.
 - e apague o código de criação do banco de dados da linha 19 
 - `` 
