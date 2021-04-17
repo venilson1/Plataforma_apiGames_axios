@@ -49,8 +49,12 @@ Game.sync({ force: true })
 ``
 - **Assim evitará que toda alteração crie uma nova tabela no banco de dados.**
 
+<hr>
 
-**FRONT END EM MANUTENÇÃO 🚧⏳**
+# **FRONT END EM MANUTENÇÃO 🚧⏳**
+
+<hr>
+
 
 
 ### 🛠 Tecnologias
