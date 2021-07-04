@@ -51,7 +51,7 @@ Game.sync({ force: true })
 
 <hr>
 
-# **FRONT END EM MANUTENÇÃO 🚧⏳**
+# **FRONT END EM MANUTENÇÃO(PARALIZADA) 🚧⏳**
 
 <hr>
 
